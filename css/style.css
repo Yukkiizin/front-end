@@ -28,7 +28,7 @@ body{
     --bgcolor-filha: hsl(0, 0%, 60%);
     --color-txt: rgb(0, 0, 0);
     --colorp:rgba(0, 0, 0, 0.793);
-    --foto-butto:url(../fotos/sun.svg); 
+    --foto-butto:url(/fotos/sun.svg); 
 }
 .ligar{
     position: relative;
