@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    
+    font-family: Arial, Helvetica, sans-serif;    
+    background-color: var(--bgcolor);
+
+}
+:root{
+    --bgcolor: hsl(0, 0%, 8%);
+    --bgcolor-pai: hsl(0, 0%, 12%);
+    --bgcolor-filha: hsl(0, 0%, 20%);
+    --color-txt: white;
+    --colorp:rgba(255, 255, 255, 0.793);
+    --foto-butto:url(/fotos/moon-stars.svg);
+}
+.luz{
+    --bgcolor: hsl(0, 0%, 82%);
+    --bgcolor-pai: hsl(0, 0%, 70%);
+    --bgcolor-filha: hsl(0, 0%, 60%);
+    --color-txt: rgb(0, 0, 0);
+    --text-a:  rgb(20, 20, 20);
+    --colorp:rgba(0, 0, 0, 0.793);
+    --foto-butto:url(/fotos/sun.svg); 
+}
+.ligar{
+    position: relative;
+    width: 64px;
+    height: 34px;
+    display: flex;
+    left: 10px;
+    top: 30px; 
+    display: none;
+}
+
+button{
+    background: white var(--foto-butto) no-repeat center center ;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+.ligar span{
+    display: block;
+    width: 64px;
+    height: 34px;
+    border-radius: 999px;
+    background-color: var(--bgcolor-pai);
+    border: #606060 1px solid;
+}
+.luz button{
+    left: initial;
+    right: 0;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 70vw;
+    background-color: var(--bgcolor-pai);
+    border-radius: 20px;
+    padding: 15px;
+    height: 530px;
+    position: relative;
+    color: var(--color-txt);
+}
+.container img{
+    margin: 15px auto;
+    display: block;
+    width: 100px;
+    border-radius: 50%;
+}
+.container h1{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder; 
+    margin: 20px 0px 6px;
+    font-family: 'yuk';
+}
+.container span{
+    font-family: 'yuk';
+    color: hsl(75, 94%, 57%) ;
+    text-align: center;
+    display: block;
+}
+.container p {
+    text-align: center;
+    font-size: 1em;
+    margin: 20px ;
+    color: var(--colorp);
+}
+.container a{
+    font-family: 'yuk';
+    font-weight: bolder;
+    color: var(--color-txt);
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0px;
+    background-color: var(--bgcolor-filha);
+    border: none;
+    text-decoration: none;
+   border-radius: 8px;
+}
+.container a:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: var(--color-txt);
+}
+
+
+
+@media screen and (min-width: 600px) {
+    .container{
+     width: 330px;
+    }
+    .container p{
+        font-size: .9em;
+    }
+    .ligar{
+        display: block;
+    }
+}
+
+/*- White: hsl(0, 0%, 100%)
+- Grey: hsl(0, 0%, 20%)
+- Dark Grey: hsl(0, 0%, 12%)
+- Off Black: hsl(0, 0%, 8%)*/

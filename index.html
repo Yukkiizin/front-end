@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="Luz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="fotos/favicon-32x32.png">
+    <style>
+        @font-face {
+            font-family: 'yuk';
+            src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+            font-weight: 400, 600, 700;
+            font-style: normal;
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="ligar" onclick="logg()">
+        <button></button>
+        <span></span>
+    </div>
+    <main>
+        <div class="container">
+            <img src="fotos/avatar-jessica.jpeg" alt="">
+            <h1>Jessica Randall</h1>
+            <span>London, United Kingdom</span>
+            <p >"Front-end developer and avatar reader"</p>
+            <a href="">GitHub</a>
+            <a href="">frontendmentor</a>
+            <a href="">LinkedIn</a>
+            <a href="">Twitter</a>
+            <a href="">Instagram</a>
+        </div>
+    </main>
+    <script>
+        function logg(){
+            const html = document.documentElement
+            html.classList.toggle('luz')
+        }
+    </script>
+</body>
+</html>
