@@ -69,7 +69,7 @@ main{
     align-items: center;
 }
 .container{
-    width: 75vw;
+    width: 80vw;
     background-color: var(--bgcolor-pai);
     border-radius: 20px;
     padding: 15px;
@@ -100,7 +100,7 @@ main{
 }
 .container p {
     text-align: center;
-    font-size: 0.878em;
+    font-size: 0.9em;
     margin: 20px ;
     color: var(--colorp);
 }
