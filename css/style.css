@@ -19,7 +19,7 @@ body{
     --bgcolor-pai: hsl(0, 0%, 12%);
     --bgcolor-filha: hsl(0, 0%, 20%);
     --color-txt: white;
-    --colorp:rgba(255, 255, 255, 0.793);
+    --colorp:rgba(255, 255, 255, 0.792);
     --foto-butto:url(../fotos/moon-stars.svg);
 }
 .luz{
@@ -27,7 +27,7 @@ body{
     --bgcolor-pai: hsl(0, 0%, 70%);
     --bgcolor-filha: hsl(0, 0%, 60%);
     --color-txt: rgb(0, 0, 0);
-    --colorp:rgba(0, 0, 0, 0.793);
+    --colorp:rgba(0, 0, 0, 0.792);
     --foto-butto:url(../fotos/sun.svg); 
 }
 .ligar{
