@@ -20,7 +20,7 @@ body{
     --bgcolor-filha: hsl(0, 0%, 20%);
     --color-txt: white;
     --colorp:rgba(255, 255, 255, 0.793);
-    --foto-butto:url(/fotos/moon-stars.svg);
+    --foto-butto:url(moon-stars.svg);
 }
 .luz{
     --bgcolor: hsl(0, 0%, 82%);
@@ -28,7 +28,7 @@ body{
     --bgcolor-filha: hsl(0, 0%, 60%);
     --color-txt: rgb(0, 0, 0);
     --colorp:rgba(0, 0, 0, 0.793);
-    --foto-butto:url(/fotos/sun.svg); 
+    --foto-butto:url(sun.svg); 
 }
 .ligar{
     position: relative;
