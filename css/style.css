@@ -76,6 +76,8 @@ main{
     height: 530px;
     position: relative;
     color: var(--color-txt);
+    transition: width 1s, height 1s;
+    transition-timing-function: ease;
 }
 .container img{
     margin: 15px auto;
@@ -98,7 +100,7 @@ main{
 }
 .container p {
     text-align: center;
-    font-size: 1em;
+    font-size: 0.878em;
     margin: 20px ;
     color: var(--colorp);
 }
