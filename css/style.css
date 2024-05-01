@@ -27,7 +27,6 @@ body{
     --bgcolor-pai: hsl(0, 0%, 70%);
     --bgcolor-filha: hsl(0, 0%, 60%);
     --color-txt: rgb(0, 0, 0);
-    --text-a:  rgb(20, 20, 20);
     --colorp:rgba(0, 0, 0, 0.793);
     --foto-butto:url(/fotos/sun.svg); 
 }
@@ -119,7 +118,7 @@ main{
 }
 .container a:hover{
     background-color: hsl(75, 94%, 57%);
-    color: var(--color-txt);
+    color: rgb(31, 31, 31);
 }
 
 
